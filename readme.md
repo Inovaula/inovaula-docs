@@ -66,7 +66,7 @@ O aplicativo principal voltado para os usuários clientes estará disponível em
 ### Recursos
 
 - [Documentação](https://github.com/Inovaula/inovaula-docs) - Github
-- [Arquivos](https://drive.google.com/drive/folders/1l9CC44mQfHXvDoTUmxSVPM7XH_nZ8-MA?usp=sharing) - *Definir pasta compartilhada no Google Drive ou app similar*
+- [Arquivos](https://drive.google.com/drive/folders/1l9CC44mQfHXvDoTUmxSVPM7XH_nZ8-MA?usp=sharing) - Google Drive
 - [Grupo de discussão](https://discord.com/channels/801055354182959114/801065664118652959) - Discord
 - [Tracking](#) - Trello
 - [Protótipo Lo-Fi Desktop](https://www.figma.com/proto/hhiqYHdyZdo1O8KeC6UM0m/Inovaula---Desktop%28Copy%29?node-id=433%3A4055&viewport=-1854%2C4672%2C1&scaling=min-zoom) - Figma
