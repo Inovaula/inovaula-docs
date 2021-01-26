@@ -1,6 +1,9 @@
 # Inovaula Documentação
 
----
+
+
+
+
 ## Visão Geral
 Repositório base da documentação de desenvolvimento do projeto Inovaula.
 
@@ -8,7 +11,10 @@ A centralização da documentação dos componentes do sistema será feita nesse
 
 Para cada serviço ou produto há um diterório com documentação específica.
 
----
+
+
+
+
 ## Tabela de Conteúdo
 
 - [Projeto](#projeto)
@@ -43,7 +49,11 @@ Para cada serviço ou produto há um diterório com documentação específica.
 - [Serviços](#Serviços)
 
 
----
+
+
+
+
+
 ## Projeto
 
 Sistema de gestão e compartilhamento de experiências de aprendizagem.
@@ -145,7 +155,11 @@ Consulte a página dedicada à enumeração dos requisitos do projeto:
 [Documentação de Requisitos](#)
 
 
----
+
+
+
+
+
 ## Design
 
 Consulte a [Documentação de Design](#) para maiores detalhes.
@@ -181,7 +195,13 @@ Material de referência necessário para a criação dos aplicativos **frontend*
 3. Layout dos templates de emails transacionais.
 4. Layout da landing page.
 
----
+
+
+
+
+
+
+
 ## Backend
 
 ### API
@@ -259,32 +279,37 @@ Esse serviço será o responsável pelo armazenamento de arquivos do sistema (up
 
 - Segurança
 
----
+
+
+
+
+
+
 ## Frontend
 
-Referência: [Comparativo entre tecnologias frontend](#https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190)
+Referência: [Comparativo entre tecnologias frontend](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190)
 
 ### Landing Page
 
 A landing page estará disponível em um domínio a parte a fim de otimizar a indexação por mecanismos de busca e promover alto desempenho (web site estático). A API e o serviço de agendamento (parte do serviço de **Async**) será responsável por periodicamente atualizar o conteúdo da **landing page** com as novidades do sistema.
 
-Estudar a possibilidade de utilizar o [Eleventy](#https://www.11ty.dev/) como framework para desenvolvimento da landing page. Esse framework é um dos mais modernos e apesar de ser estático, é possível criar estruturas complexas como por exemplo um blog.
+Estudar a possibilidade de utilizar o [Eleventy](https://www.11ty.dev/) como framework para desenvolvimento da landing page. Esse framework é um dos mais modernos e apesar de ser estático, é possível criar estruturas complexas como por exemplo um blog.
 
-Veja o [template google](#https://github.com/google/eleventy-high-performance-blog) para eleventy, no momento o único com 100% de SEO e todos os outros critérios de avaliação do google.
+Veja o [template google](https://github.com/google/eleventy-high-performance-blog) para eleventy, no momento o único com 100% de SEO e todos os outros critérios de avaliação do google.
 
 ### Aplicativos Web
 
 
 **Principais dependencias dos aplicativos web**
-- [ReactJS](#https://reactjs.org/)
-- [React Helmet](#https://github.com/nfl/react-helmet) - Otimização de SEO
-- [Redux](#https://redux.js.org/)
-- [Axios](#https://github.com/axios/axios)
-- [Material UI](#https://material-ui.com/)
+- [ReactJS](https://reactjs.org/)
+- [React Helmet](https://github.com/nfl/react-helmet) - Otimização de SEO
+- [Redux](https://redux.js.org/)
+- [Axios](https://github.com/axios/axios)
+- [Material UI](https://material-ui.com/)
 
 **Otimização de SEO**
 
-Estudar a necessidade e viabilidade de utilizar o [Prerender.io](#https://prerender.io/)
+Estudar a necessidade e viabilidade de utilizar o [Prerender.io](https://prerender.io/)
 
 #### Aplicativo Cliente
 
@@ -300,7 +325,11 @@ Não estão previstos aplicativos mobile na primeira etapa de desenvolvimento, p
 
 A tecnologia compatível com o **frontend web**, com o qual é possível haver compartilhamento de códigos, é o **React Native**.
 
----
+
+
+
+
+
 ## Infraestrutura
 
 ### Ambientes
@@ -360,7 +389,13 @@ Lista de procedimentos e manual de uso dos **playbooks** do **Ansible**.
 - **restart_api** - Reiniciar servidor web (Nginx) e o gateway (uWSGI) da API.
 - **collect_logs** - Coletar para ambiente local todos os logs da instância de API.
 
----
+
+
+
+
+
+
+
 ## Serviços
 
 - **AWS SES** - Serviço de entrega de emails transacionais
