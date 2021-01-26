@@ -1,0 +1,37 @@
+.
+├── backend
+│   ├── api
+│   ├── async
+│   ├── cache
+│   ├── chat
+│   └── database
+├── design
+│   ├── icons
+│   ├── images
+│   ├── logos
+│   └── references
+├── docs
+│   ├── backend
+│   ├── design
+│   ├── frontend
+│   ├── iac
+│   └── project
+│       └── structure
+├── frontend
+│   ├── mobile
+│   └── web
+│       ├── client
+│       ├── dashboard
+│       └── landing
+├── iac
+│   ├── aws
+│   ├── backend
+│   ├── frontend
+│   └── maintenance
+└── meta
+    ├── credentials
+    ├── meetings
+    ├── messages
+    ├── proposals
+    ├── reports
+    └── requirements
